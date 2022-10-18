@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: #072146;
+    padding-left: 50px;
+}
+
+.lg_bbva{
+    max-width: 100px;
+    width: 100%;
+    display: block;
+    margin-top: 13px;
+}
+
+.links-1{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.links-1 li{
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.links-1 a{
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+}
+
+.links-2{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links-2 a{
+    text-decoration: none;
+}
+
+.btn-link{
+    width: 100%;
+    height: 100%;
+    background-color: #028484;
+    display: block;
+    padding: 8px 4px;
+    color: white;
+}
+
+.btn-link:hover{
+    color: white;
+    background-color: #00b6b6;
+    transition: 0.2s linear all;
+}
+
+.btn{
+    color: white;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.btn-menu{
+    border: none;
+    background-color: #072146;
+    color: white;
+}
+
+.lupa{
+    color: white;
+}
+
+.haceteCliente{
+    color: #F8CD51;
+}
+
+.link-trj{
+    color: rgb(194, 194, 194);
+    border-right: 1px solid rgb(194, 194, 194);
+    padding-right: 40px;
+}
