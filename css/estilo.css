@@ -129,3 +129,66 @@ nav{
         display: none;
     }
 }
+
+.fondo-2mujeres{
+    background-color: #2CCCCE;
+    display: flex;
+}
+
+.mujeres-2{
+    display: block;
+    width: 600px;
+    height: 500px;
+    float: right; 
+}
+
+.cont-carrusel-1{
+    background-color: white;
+    width: 450px;
+    height: 350px;
+    padding: 35px;
+    float: left;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+.cont-btn-haceteCliente{
+    margin-top: 20px;
+}
+
+.cont-btn-haceteCliente button{
+    display: block;
+    width: 170px;
+    height: 55px;
+    border: none;
+    background-color: #1972B9;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    transition: 0.1s all linear;
+}
+
+.cont-btn-haceteCliente button:hover{
+    background-color: #1741b6;
+}
+
+.cont-carrusel-2{
+    background-color: #004580;
+    display: flex;
+}
+
+.cont-texto-imgNieve{
+    background-color: white;
+    width: 600px;
+    height: 270px;
+    padding: 35px;
+    float: left;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+.nieve{
+    width: 500px;
+    height: 500px;
+    float: right;
+}
