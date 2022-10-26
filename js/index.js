@@ -44,6 +44,6 @@ btnLeft.addEventListener('click', function(){
     prevImg();
 });
 
-// setInterval(function(){
-//     nextImg();
-// }, 4000);
+setInterval(function(){
+    nextImg();
+}, 4000);
