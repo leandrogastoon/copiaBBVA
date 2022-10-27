@@ -284,6 +284,7 @@ nav{
     display: flex;
     margin-top: 50px;
     margin-left: -40px;
+    margin-bottom: 30px;
 }
 
 .cont-2-icn{
@@ -353,4 +354,181 @@ nav{
 
 .ico-7, .ico-8, .ico-9{
     display: none;
+}
+
+/*estilo seccion bici*/
+
+.contenido-bici{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #EAF8FB;
+    margin-top: 80px;
+}
+
+.cont-texto{
+    justify-content: center;
+    margin: auto;
+}
+
+.contenido-bici a{
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    background-color:#1872b8;
+    transition: all .2s linear;
+}
+
+.contenido-bici a:hover{
+    background-color: #1547a5;
+}
+
+.img-bici{
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
+}
+
+/*estilo tarjetas 1*/
+
+.cont-tarj1{
+    display: flex;
+}
+
+.titulo-tarjetas1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.tarj1{
+    background-color:#F5F5F4;
+    padding: 0;
+    width: 556px;
+    height: 600px;
+}
+
+.tarj1 a{
+    display: block;
+    width: 556px;
+    height: 313.14px;
+}
+
+.texto-tarj1{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.texto-tarj1 a{
+    margin-top: 120px;
+    text-decoration: none;
+    color: #1872b8;
+    font-weight: bold;
+}
+
+.texto-tarj1 a:hover{
+    color: #072146;
+}
+
+/*tarjeta jubilacion*/
+
+.jubilacion{
+    display: flex;
+    background-color:#F5F5F4;
+    padding: 0;
+    width: 556px;
+    height: 281.14px;
+}
+
+.jubilacion a{
+    display: block;
+    
+}
+
+.jubilacion img{
+    width: 222.39px;
+    height: 281.14px;
+    object-fit: cover;
+}
+
+.texto-tarj2{
+    margin: 50px 0 0 30px;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.texto-tarj2 h6{
+    font-weight: bold;
+}
+
+.texto-tarj2 p{
+    color: rgb(153, 153, 153);
+    margin-top: 15px;
+}
+
+.texto-tarj2 a{
+    text-decoration: none;
+    color: #1872b8;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.link-jubilacion:hover{
+    color: #072146;
+}
+
+/*clave digital*/
+
+.claveDigital{
+    display: flex;
+    background-color:#F5F5F4;
+    padding: 0;
+    width: 556px;
+    height: 281.14px;
+    margin-top: 36px;
+}
+
+.claveDigital a{
+    display: block;
+    
+}
+
+.img-clave{
+    width: 215.10px;
+    height: 281.14px;
+    object-fit: cover;
+}
+
+.texto-tarj3{
+    width: 180px;
+    height: 281.14px;
+    margin-top: 20px;
+    margin-left: 30px;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.texto-tarj3 h6{
+    font-weight: bold;
+}
+
+.texto-tarj3 p{
+    color: rgb(153, 153, 153);
+    margin-top: 15px;
+}
+
+.texto-tarj3 a{
+    text-decoration: none;
+    color: #1872b8;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.link-claveDigital:hover{
+    color: #072146;
+}
+
+.section-tarj{
+    margin-left: 8%;
 }
