@@ -371,18 +371,49 @@ nav{
     margin: auto;
 }
 
-.contenido-bici a{
+.btn-prueba{                       /*efecto boton*/
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 70px;
     margin: auto;
-    text-decoration: none;
-    color: white;
-    padding: 15px 20px;
-    background-color:#1872b8;
-    transition: all .2s linear;
+    background-color: #1872b8;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease all;
+    position: relative;
+    overflow: hidden;
 }
 
-.contenido-bici a:hover{
-    background-color: #1547a5;
+.btn-prueba span{
+    position: relative;
+    z-index: 2;
 }
+
+.btn-prueba a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-prueba::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: calc(-100% - 80px);
+    border-bottom: 80px solid #1547a5;
+    border-right: 80px solid #1547a5;
+    transition: .5s ease-in-out all;
+}
+
+.btn-prueba:hover::after{
+    left: 0;
+}
+
 
 .img-bici{
     width: 150px;
@@ -411,8 +442,6 @@ nav{
 
 .tarj1 a{
     display: block;
-    width: 556px;
-    height: 313.14px;
 }
 
 .texto-tarj1{
@@ -420,14 +449,14 @@ nav{
     margin-left: 30px;
 }
 
-.texto-tarj1 a{
+.link-cont1{
     margin-top: 120px;
     text-decoration: none;
     color: #1872b8;
     font-weight: bold;
 }
 
-.texto-tarj1 a:hover{
+.link-cont1:hover{
     color: #072146;
 }
 
@@ -532,3 +561,67 @@ nav{
 .section-tarj{
     margin-left: 8%;
 }
+
+/*estilo seccion cuadrados azul*/
+
+.seccionAzul{
+    background-color: #014581;
+    margin-top: 80px;
+}
+
+.cont-titulo-c{
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}
+
+.cont-titulo-c a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.cont-titulo-c a:hover{
+    color: #072146;
+}
+
+.cont-primerCuadrado{
+    display: flex;
+    background-color: #053262;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    text-decoration: none;
+}
+
+.cont-primerCuadrado:hover{
+    background-color: rgb(7, 34, 72);
+}
+
+.cont-primerCuadrado2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.link-tarjAzul{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: -100px;
+}
+
+.img-movil{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
