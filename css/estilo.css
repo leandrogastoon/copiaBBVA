@@ -30,6 +30,24 @@ nav{
     font-weight: 600;
 }
 
+#personas{
+    color: white;
+    border-bottom: 4px solid white;
+    padding-bottom: 14px;
+}
+
+.empresas:hover{
+    color: white;
+}
+
+.link-trj:hover{
+    color: white;
+}
+
+.haceteCliente:hover{
+    color: white;
+}
+
 .links-1 li{
     width: auto;
     margin: 0 auto;
@@ -564,6 +582,14 @@ nav{
 
 /*estilo seccion cuadrados azul*/
 
+.contenedor-cuadros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
 .seccionAzul{
     background-color: #014581;
     margin-top: 80px;
@@ -590,7 +616,7 @@ nav{
     display: flex;
     background-color: #053262;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0;
     align-items: center;
     width: 600px;
     height: 300px;
@@ -622,6 +648,87 @@ nav{
     height: 150px;
 }
 
+/*estilo segundo cuadro "banca online"*/
 
+.linksCuadro{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height: 300px;
+    text-decoration: none;
+}
 
+.cont-segCuadro{
+    width: 600px;
+    height: 300px;
+    background-image: url(../img/godigital-banca-online-1.im1585264307061im.jpg);
+    background-size: cover;
+    transition: .5s all linear;
+}
 
+.cont-segCuadro:hover{
+    background-position: 2%;
+}
+
+.cont-imgCuadro{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.textoCuadro2{
+    margin: 80px 0 0 30px;
+}
+
+/*tercer cuadro go*/
+
+.cont-tercerCuadro{
+    width: 600px;
+    height: 300px;
+    background-image: url(../img/godigital-bbva-go-4.im1585264412837im.jpg);
+    background-size: cover;
+    transition: .5s all linear;
+}
+
+.cont-tercerCuadro:hover{
+    background-position: 20%;
+}
+
+.cont-imgCuadro3{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.textoCuadro3{
+    margin: 80px 0 0 30px;
+}
+
+/*ultimo cuadro cash*/
+
+.ultimoCuadrado{
+    display: flex;
+    background-color: #053262;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+}
+
+.link-ultimo{
+    color: white;
+}
+
+.img-mano{
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+.texto-cash{
+    margin-top: 20px;
+}
