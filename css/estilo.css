@@ -389,7 +389,7 @@ nav{
     margin: auto;
 }
 
-.btn-prueba{                       /*efecto boton*/
+.btn-prueba{                       /*efecto boton----------------------------------------------------------*/
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -612,7 +612,7 @@ nav{
     color: #072146;
 }
 
-.cont-primerCuadrado{
+.cont-primerCuadrado{     /*----------------------------------------------------*/
     display: flex;
     background-color: #053262;
     justify-content: center;
@@ -621,10 +621,9 @@ nav{
     width: 600px;
     height: 300px;
     text-decoration: none;
-}
-
-.cont-primerCuadrado:hover{
-    background-color: rgb(7, 34, 72);
+    transition: .3s all linear;
+    position: relative;
+    overflow: hidden;
 }
 
 .cont-primerCuadrado2{
@@ -641,6 +640,8 @@ nav{
     margin-top: 50px;
     margin-right: 50px;
     margin-left: -100px;
+    position: relative;
+    z-index: 2;
 }
 
 .img-movil{
@@ -657,6 +658,8 @@ nav{
     width: 600px;
     height: 300px;
     text-decoration: none;
+    position: relative;
+    overflow: hidden;
 }
 
 .cont-segCuadro{
@@ -690,6 +693,8 @@ nav{
     background-image: url(../img/godigital-bbva-go-4.im1585264412837im.jpg);
     background-size: cover;
     transition: .5s all linear;
+    position: relative;
+    overflow: hidden;
 }
 
 .cont-tercerCuadro:hover{
@@ -731,4 +736,163 @@ nav{
 
 .texto-cash{
     margin-top: 20px;
+}
+
+/*efecto de tarjetas*/
+
+.texto-oculto{
+    margin-top: -15px;
+    visibility: hidden;
+    transition: .3s all linear;
+}
+
+.link-tarjAzul{
+    transition: .3s all linear;
+    z-index: 3;
+}
+
+.cont-primerCuadrado:hover .texto-oculto{
+    visibility: visible;
+    transform: translateY(-7px);
+}
+
+.cont-primerCuadrado:hover .link-tarjAzul{
+    transform: translateY(-30px);
+}
+
+
+
+
+
+.cont-primerCuadrado::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: calc(-100% - 50px);
+    border-bottom: 300px solid #091f498c;
+    border-right: 300px solid #091f498c;
+    transition: .5s ease-in-out all;
+}
+
+.cont-primerCuadrado:hover::after{
+    left: 0;
+}
+
+.linksCuadro:hover .texto-oculto{
+    visibility: visible;
+    transform: translateY(-7px);
+}
+
+.textoCuadro2{
+    transition: .3s all linear;
+    z-index: 3;
+}
+
+.linksCuadro:hover .textoCuadro2{
+    transform: translateY(-30px);
+}
+
+.linksCuadro::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: calc(-100% - 50px);
+    border-bottom: 300px solid #0413308c;
+    border-right: 300px solid #0413308c;
+    transition: .5s ease-in-out all;
+}
+
+.linksCuadro:hover::after{
+    left: 0;
+}
+
+
+/**/
+
+.textoCuadro3{
+    transition: .3s all linear;
+    z-index: 3;
+}
+
+.textoCuadro3 .texto-oculto{
+    margin-top: 10px;
+}
+
+.linksCuadro:hover .textoCuadro3{
+    transform: translateY(-30px);
+}
+
+/**/
+
+.link-ultimo{
+    transition: .3s all linear;
+    z-index: 3;
+}
+
+.link-ultimo .texto-oculto{
+    margin-top: 10px;
+}
+
+.linksCuadro:hover .link-ultimo{
+    transform: translateY(-30px);
+}
+
+
+/*estilo seccion 3 iconos con fondo circular con efecto*/
+
+.cont-icn-circ{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #dddddc;
+    padding: 40px 0;
+}
+
+.circulo img{
+    width: 72px;
+    height: 85.69px;
+}
+
+.cont-icono{
+    width: 184px;
+    height: 184px;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: .3s all ease-out;
+}
+
+.circulo{
+    display: block;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.circulo:hover .cont-icono{
+    transform: translateY(-28px);
+    background: linear-gradient(150deg, transparent 50%, white 50%)
+}
+
+.link-A, .link-B, .link-C{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.circulo h4{
+    color: black;
+}
+
+.circulo p:hover{
+    color: #072146;
 }
