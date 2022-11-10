@@ -1,5 +1,4 @@
 body{
-    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -148,6 +147,98 @@ nav{
     }
 }
 
+/*estilo chat flotante*/
+
+.conteinerChat{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 3px 3px 6px  rgb(136, 136, 136);
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.chat{
+    text-decoration: none;
+}
+
+.chat p{
+    font-weight: bold;
+}
+
+/*mensaje flotante derecho*/
+
+.containerFlotante{
+    position: fixed;
+    z-index: 10;
+    right: 10px;
+    bottom: 10px;
+    background-color: whitesmoke;
+    padding: 15px 20px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.container2Flotante{
+    display: flex;
+    width: 270px;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2Flotante h3{
+    font-weight: bold;
+}
+
+.container2Flotante h6{
+    margin-bottom: 25px;
+}
+
+.cerrar{
+    float: right;
+    color: #1872b8;
+    cursor: pointer;
+}
+
+.btnFlotante{
+    width: 150px;
+    height: 100%;
+    background-color:#00b6b6;
+    display: block;
+    padding: 8px 4px;
+    margin-left: 60px;
+    border: none;
+}
+
+.btnFlotante:hover{
+    background-color:#028484;
+}
+
+.btnFlotante a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.linkFlotante{
+    text-decoration: none;
+    color: #1872b8;
+    font-weight: bold;
+    display: block;
+    margin-top: 30px;
+}
+
+.linkFlotante:hover{
+    color: #053262;
+}
 
 /*estilo carrusel*/
 
@@ -588,6 +679,7 @@ nav{
     align-items: center;
     margin: 0;
     padding: 0;
+    padding-bottom: 50px;
 }
 
 .seccionAzul{
@@ -847,6 +939,7 @@ nav{
 /*estilo seccion 3 iconos con fondo circular con efecto*/
 
 .cont-icn-circ{
+    height: 370px;
     display: flex;
     justify-content: space-evenly;
     background-color: #dddddc;

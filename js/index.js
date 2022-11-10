@@ -110,3 +110,4 @@ btnRightIcon.addEventListener("click", function () {
 btnLeftIcon.addEventListener("click", function () {
   prevIcn();
 });
+
