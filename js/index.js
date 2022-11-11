@@ -55,7 +55,6 @@ let sliderSectionLastIcon = sliderSectionIcon[sliderSectionIcon.length - 1];
 const btnLeftIcon = document.querySelector("#btn-izq");
 const btnRightIcon = document.querySelector("#btn-der");
 
-// sliderIcon.insertAdjacentElement('afterbegin', sliderSectionLastIcon);
 
 function nextIcn() {
   let sliderSectionFirstIcon = document.querySelectorAll(".icn")[0]; //para obtener el primer elemento (va cambiando)
@@ -111,3 +110,17 @@ btnLeftIcon.addEventListener("click", function () {
   prevIcn();
 });
 
+//interaccion msj flotante
+
+const cerrar = document.querySelector("#cerrar");
+
+function cerrarVentana () {
+  const ventana = document.querySelector("#containerFlotante");
+
+  ventana.style.transform = "translateX(400px)";
+  ventana.style.transition = "all 0.5s linear";
+}
+
+cerrar.addEventListener("click", function (){
+  cerrarVentana();
+});

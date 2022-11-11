@@ -278,7 +278,7 @@ nav{
     font-family: monospace;
     color: rgba(255, 255, 255, 0.664);
     text-align: center;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .slider__btn:hover{
@@ -988,4 +988,83 @@ nav{
 
 .circulo p:hover{
     color: #072146;
+}
+
+/*estilo footer*/
+
+.cont-footer{
+    background-color: #072047;
+    padding: 40px 0;
+}
+
+.cont-primeraLinea{
+    display: flex;
+    align-items: center;
+}
+
+.cont-primeraLinea img{
+    margin-left: 40px;
+}
+
+.cont-icnFooter{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.icn-footer{
+    color: #072047;
+    padding: 5px;
+    background-color: #5BBFFE;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.icn-footer:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.face{
+    width: 26px;
+    height: 26px;
+    text-align: center;
+}
+
+.logoFooter{
+    width: 133.47px;
+    height: 40px;
+}
+
+.cont-segundaLinea{
+    margin: 40px 0 0 40px;
+}
+
+.cont-segundaLinea a{
+    text-decoration: none;
+    color: #1872b8;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.cont-segundaLinea a:hover{
+    color: white;
+}
+
+.cont-tercLinea{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.cont-tercLinea h5{
+    color: grey;
+    font-size: 14px;
+}
+
+.cont-tercLinea h6{
+    color: #5BBFFE;
+    margin-left: 900px;
 }
