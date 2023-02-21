@@ -669,7 +669,9 @@ nav{
 }
 
 .section-tarj{
-    margin-left: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*estilo seccion cuadrados azul*/
