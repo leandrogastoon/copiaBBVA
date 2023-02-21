@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 nav{
@@ -851,10 +852,6 @@ nav{
 .cont-primerCuadrado:hover .link-tarjAzul{
     transform: translateY(-30px);
 }
-
-
-
-
 
 .cont-primerCuadrado::after{
     content: "";
