@@ -124,3 +124,9 @@ function cerrarVentana () {
 cerrar.addEventListener("click", function (){
   cerrarVentana();
 });
+
+
+// interaccion menu
+
+const menu = document.querySelector(".btn-menu");
+
