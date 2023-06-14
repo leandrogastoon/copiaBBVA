@@ -130,3 +130,26 @@ cerrar.addEventListener("click", function (){
 
 const menu = document.querySelector(".btn-menu");
 
+menu.addEventListener("mouseover", abrirMenu);
+menu.addEventListener("click", cerrarMenu);
+
+function abrirMenu(){
+  const contenedorMenu = document.querySelector(".contenedor-menu");
+  const btnMenu = document.querySelector(".btn-menu");
+
+  btnMenu.textContent = "Cerrar";
+
+  contenedorMenu.classList.replace("contenedor-menu", "abrirMenu");
+}
+
+function cerrarMenu(){
+  const contenedorMenu = document.querySelector(".abrirMenu");
+  const btnMenu = document.querySelector(".btn-menu");
+
+  btnMenu.textContent = "Menu";
+
+  contenedorMenu.classList.replace("abrirMenu", "contenedor-menu");
+
+  console.log("cerrado");
+}
+
