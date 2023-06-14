@@ -182,6 +182,13 @@ nav{
     margin-right: 15px;
     padding: 70px 5px 0 5px;
     color: white;
+    
+}
+
+.tarj-oport:hover img{
+    transform: translateY(-20px);
+    color: white;
+    transition: .2s all linear;
 }
 
 .tarj-oport:hover{
@@ -204,12 +211,18 @@ nav{
     height: 100vh;
     color: white;
     padding: 50px 0 0 50px;
+    transform: translateX(60px);
 }
 
 .productos-menu ul li{
     list-style: none;
     margin-bottom: 10px;
     color: grey;
+}
+
+.productos-menu ul li a:hover{
+    color: whitesmoke;
+    font-weight: normal;
 }
 
 .productos-menu ul li a{
@@ -220,6 +233,10 @@ nav{
     margin-right: 10px;
 }
 
+.flecha{
+    float: right;
+    transform: translateX(-30px);
+}
 
 /*estilo chat flotante*/
 
