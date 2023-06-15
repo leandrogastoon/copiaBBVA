@@ -150,6 +150,14 @@ function cerrarMenu(){
 
   contenedorMenu.classList.replace("abrirMenu", "contenedor-menu");
 
-  console.log("cerrado");
 }
 
+// interaccion sub menu
+
+const linkTarjetas = document.querySelector(".tarjetas");
+const linkPrestamos = document.querySelector(".prestamos");
+const linkCuentas = document.querySelector(".cuentas");
+
+linkTarjetas.addEventListener("click", menuTarjetas);
+linkPrestamos.addEventListener("click", menuPrestamos);
+linkCuentas.addEventListener("click", menuCuentas);

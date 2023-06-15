@@ -210,25 +210,29 @@ nav{
 
 .productos-menu{
     background-color: #072047;
-    width: 500px;
+    width: 600px;
     height: 100vh;
     color: white;
-    padding: 50px 0 0 50px;
-    transform: translateX(60px);
+    padding: 50px 0px 0 50px;
+    transform: translateX(100px);
 }
 
-.productos-menu ul li{
+.opMenu{
     list-style: none;
     margin-bottom: 10px;
     color: grey;
 }
 
-.productos-menu ul li a:hover{
+.opMenu li{
+    margin-bottom: 6px;
+}
+
+.opMenu a:hover{
     color: whitesmoke;
     font-weight: normal;
 }
 
-.productos-menu ul li a{
+.opMenu a{
     text-decoration: none;
     color: grey;
     font-size: 20px;
@@ -238,7 +242,7 @@ nav{
 
 .flecha{
     float: right;
-    transform: translateX(-30px);
+    transform: translateX(30px);
 }
 
 /* interaccion del menu */
@@ -254,6 +258,19 @@ nav{
     background-color: #043263;
     transition: .5s all linear;
 }
+
+/* estilo submenu */
+
+.contenedorProducMenu{
+    display: flex;
+}
+
+.contSubMenu{
+    width: 150px;
+    transform: translateX(300px);
+}
+
+/* interaccion submenu */
 
 /*estilo chat flotante*/
 
